@@ -198,14 +198,16 @@ $response-background: #FFFFFF;
       overflow: hidden;
       white-space: nowrap;
       text-overflow: ellipsis;
+      color: #cb4c3a;
 
       &:before {
         content: "";
-        background-image: url(../../assets/images/deck.svg);
+        background-image: url(../../assets/images/pc-scissors-white.png);
         background-size: 100% 100%;
         display: inline-block;
-        width: 2.8em;
-        height: 2em;
+	width: 35px;
+	height: 31px;
+	/* width: 2.8em; height: 2em; */
       }
     }
 

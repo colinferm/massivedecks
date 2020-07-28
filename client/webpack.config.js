@@ -199,7 +199,7 @@ module.exports = (env, argv) => {
         },
         // Font assets.
         {
-          test: /\.(woff2)$/,
+          test: /\.(woff2|otf)$/,
           loader: "file-loader",
           options: {
             name: "assets/fonts/[name].[hash].[ext]",
