@@ -7,3 +7,5 @@ dist/
 # Package management cruft.
 elm-stuff/
 node_modules/
+nohup.out
+*.swp

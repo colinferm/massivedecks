@@ -269,16 +269,16 @@ module.exports = (env, argv) => {
     },
     devServer: {
       hot: true,
-      allowedHosts: ["localhost"],
+      allowedHosts: ["papercuts.electricliterature.com"],
       proxy: {
         // Forward to the server.
         "/api/**": {
-          target: "http://localhost:8081",
+          target: "http://papercuts.electricliterature.com:8081",
           ws: true,
         },
         // As we are an SPA, this lets us route all requests to the index.
         "**": {
-          target: "http://localhost:8080",
+          target: "http://papercuts.electricliterature.com:8080",
           pathRewrite: {
             cast: "cast.html",
             ".*": "",

@@ -2,7 +2,7 @@
   // In a production environment, be sure to change this value to a random secret for security.
   // You can use `npm run generate-secret` to generate a suitable value.
   // Note that changes to this value will kick all users from all games.
-  secret: "CHANGE ME",
+  secret: "f30ef7e14d10b30452a5789b938a9e81ce53aac6fab209abb9da1ad0506f12c6",
   // This will be overwritten by the environment variable MD_SECRET, if set.
 
   // The port to serve on. Note this should always be behind a reverse proxy.
@@ -29,25 +29,8 @@
       // Ids for decks in the order they will be presented to the user.
       // The game will look for these in the directory given by basePath above, and will expect them to have the
       // .deck.json5 extension.
-      decks: ["cah-base-en", "cah-base-ptbr"],
-    },
-
-    // Allows players to load decks from Many Decks.
-    manyDecks: {
-      baseUrl: "https://decks.rereadgames.com/",
-
-      // How long to wait for a response from Many Decks before giving up and telling the user there is a problem.
-      timeout: "PT10S",
-
-      // The number of connections the server can make to Many Decks at one time.
-      simultaneousConnections: 2,
-    },
-
-    // Allows players to use decks from JSON Against Humanity
-    jsonAgainstHumanity: {
-      aboutUrl: "https://github.com/crhallberg/json-against-humanity",
-      url: "https://raw.githubusercontent.com/crhallberg/json-against-humanity/v2/compact.md.json",
-    },
+      decks: ["cah-base-en"],
+    }
   },
 
   // The default configuration for new lobbies when they are created.
@@ -130,18 +113,15 @@
   // How to store game data.
   storage: {
     // Example of a configuration using in-memory storage. Note this means server restart wipes all data.
-    type: "InMemory",
-
-    //// Example of a configuration using a postgres database.
-    // type: "PostgreSQL",
-    // connection: {
-    //   host: "postgres",
-    //   port: 5432 ,
-    //   user: "massivedecks",
-    //   database: "massivedecks",
-    //   password: "massivedecks",
-    //   keepAlive: false,
-    // },
+    type: "PostgreSQL",
+    connection: {
+      host: "postgres",
+      port: 5432 ,
+      user: "massivedecks",
+      database: "massivedecks",
+      password: "massivedecks",
+      keepAlive: false,
+    },
 
     // How long to allow without any activity before garbage collecting the game (an ISO 8601 duration).
     abandonedTime: "PT15M",
@@ -151,19 +131,16 @@
 
   // How to cache game data.
   cache: {
-    // Example of a configuration using in-memory storage.
-    type: "InMemory",
-
     //// Example of a configuration using a postgres database.
-    // type: "PostgreSQL",
-    // connection: {
-    //   host: "postgres",
-    //   port: 5432 ,
-    //   user: "massivedecks",
-    //   database: "massivedecks",
-    //   password: "massivedecks",
-    //   keepAlive: false,
-    // },
+    type: "PostgreSQL",
+    connection: {
+      host: "postgres",
+      port: 5432 ,
+      user: "massivedecks",
+      database: "massivedecks",
+      password: "massivedecks",
+      keepAlive: false,
+     },
 
     // How old a cached value should be before we check to see if we should update it on a hit.
     checkAfter: "PT5M",

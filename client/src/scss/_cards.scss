@@ -3,10 +3,10 @@
 @use "cards/_sources";
 
 $call-color: #ffffff;
-$call-background: #000000;
+$call-background: #cb4c3a;
 
-$response-color: $call-background;
-$response-background: $call-color;
+$response-color: #272726;
+$response-background: #FFFFFF;
 
 @mixin shadow($color: #000000) {
   .side {

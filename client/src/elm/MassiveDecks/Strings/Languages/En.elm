@@ -30,7 +30,7 @@ translate mdString =
     case mdString of
         -- General
         MassiveDecks ->
-            [ Text "Massive Decks" ]
+            [ Text "Papercuts" ]
 
         Close ->
             [ Text "Close" ]
@@ -48,7 +48,7 @@ translate mdString =
             [ Text "Version “", Text versionNumber, Text "”" ]
 
         ShortGameDescription ->
-            [ Text "A comedy party game." ]
+            [ Text "A Party Game For The Rude and Well-Read" ]
 
         WhatIsThis ->
             [ Text "What is ", Ref MassiveDecks, Text "?" ]
@@ -392,16 +392,16 @@ translate mdString =
             [ Text "Spectator" ]
 
         Call ->
-            [ Text "Black Card" ]
+            [ Text "Orange Card" ]
 
         CallDescription ->
-            [ Text "A black card with a question or fill-in-the-blank phrase." ]
+            [ Text "An orange card with a question or fill-in-the-blank phrase." ]
 
         Response ->
-            [ Text "White Card" ]
+            [ Text "Black Card" ]
 
         ResponseDescription ->
-            [ Text "A white card with a phrase played into rounds." ]
+            [ Text "A black card with a phrase played into rounds." ]
 
         Point ->
             [ Text "Awesome Point" ]

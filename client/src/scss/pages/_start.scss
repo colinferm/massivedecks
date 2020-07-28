@@ -163,6 +163,7 @@
 
     .version {
       opacity: 0.3;
+      display: none;
     }
   }
 
@@ -201,6 +202,7 @@
   font-size: 1.2em;
   background-color: colors.$many-decks;
   color: #ffffff;
+  display: none;
 
   > * {
     margin-bottom: 0.5em;
