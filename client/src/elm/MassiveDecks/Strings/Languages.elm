@@ -43,10 +43,7 @@ import Material.Attributes as Material
 -}
 languages : List Language
 languages =
-    [ En
-    , It
-    , PtBR
-    ]
+    [ En ]
 
 
 {-| The IETF language tag for the language.
