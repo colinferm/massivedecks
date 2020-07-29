@@ -1,13 +1,13 @@
 $general: "Roboto", sans-serif;
-$card: "Minion Pro", serif;
+$card: "MinionPro-Regular", serif;
 /* $card: "Minion Pro", "Helvetica Neue", "Nimbus Sans L", sans-serif; */
 $game-code: "Source Code Pro", monospace;
 
 @font-face {
-  font-family: "Minion Pro";
+  font-family: "MinionPro-Regular";
+  src: url("../../assets/fonts/MinionPro-Regular.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
   font-style: normal;
-  font-weight: 400;
-  src: url("../../assets/fonts/minion-pro-regular.otf") format("otf");
 }
 
 @font-face {

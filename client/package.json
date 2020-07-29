@@ -9,7 +9,7 @@
   "scripts": {
     "prepublishOnly": "npm run build",
     "prebuild": "sed -i \"s/\\\"dev\\\"/\\\"${MD_VERSION:-${SOURCE_VERSION:-unknown}-dev}\\\"/g\" src/elm/MassiveDecks/Version.elm",
-    "build": "npx webpack --max_old_space_size=4096 --mode=production",
+    "build": "npx webpack --progress --mode=production",
     "dev": "nohup npx webpack-dev-server --mode=development &"
   },
   "files": [

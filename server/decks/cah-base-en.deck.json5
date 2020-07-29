@@ -18,7 +18,18 @@
     ],
 // 3.
     [
-      ["In my reboot of Kafka’s *The Metamorphosis*, ", {}, " awakes transformed into a gigantic ", {}, "."]
+      [
+        "In my reboot of Kafka’s ",
+        {
+          text: "The Metamorphosis",
+          style: "Em"
+        },
+        ", ",
+        {},
+        " awakes transformed into a gigantic ",
+        {},
+        "."
+      ]
     ],
  // 4.
     [
@@ -30,7 +41,7 @@
     ],
 // 6.
     [
-      ["It is a truth universally acknowledged, that a single man in possession of ", {}, " must be in want of a", {}, "."]
+      ["It is a truth universally acknowledged, that a single man in possession of ", {}, " must be in want of a ", {}, "."]
     ],
 // 7.
     [
@@ -56,7 +67,8 @@
     [
       [
         {
-          style: "Em"
+          style: "Em",
+          transform: "Capitalize"
         },
         {
           text: " and ",
@@ -81,13 +93,15 @@
           style: "Em"
         },
         {
-          style: "Em"
+          style: "Em",
+          transform: "Capitalize"
         },
         {
           text: " Is Hard to Find",
           style: "Em"
-        }
-        "stories by", {},
+        },
+        "stories by",
+        {}
       ]
   ],
 // 14.
@@ -98,7 +112,8 @@
           style: "Em"
         },
         {
-          style: "Em"
+          style: "Em",
+          transform: "Capitalize"
         },
         {
           text: " Grows in Brooklyn",
@@ -118,12 +133,13 @@
           style: "Em"
         },
         {
-          style: "Em"
+          style: "Em",
+          transform: "Capitalize"
         },
         {
           text: "? It’s Me, ",
           style: "Em"
-        }
+        },
          {
           style: "Em"
         },
@@ -137,7 +153,8 @@
           style: "Em"
         },
         {
-          style: "Em"
+          style: "Em",
+          transform: "Capitalize"
         },
       ]
     ],
@@ -149,7 +166,8 @@
           style: "Em"
         },
         {
-          style: "Em"
+          style: "Em",
+          transform: "Capitalize"
         },
         {
           text: "s?",
@@ -169,11 +187,10 @@
           style: "Em"
         },
         {
-          style: "Em"
+          style: "Em",
+          transform: "Capitalize"
         },
-        {
-          text: ": an erotic novel by "
-        },
+        ": an erotic novel by ",
         {}, 
       ]
     ],
@@ -188,16 +205,18 @@
           style: "Em"
         },
         {
-          style: "Em"
+          style: "Em",
+          transform: "Capitalize"
         },
         {
           text: " and  ",
           style: "Em"
         },
         {
-          style: "Em"
+          style: "Em",
+          transform: "Capitalize"
         },
-                {
+        {
           text: ".",
           style: "Em"
         },
@@ -211,7 +230,8 @@
           style: "Em"
         },
         {
-          style: "Em"
+          style: "Em",
+          transform: "Capitalize"
         },
         {
           text: " Sings",
@@ -233,7 +253,8 @@
     ],
 // 26. One Line Card:
     [
-      ["In Thomas Pynchon’s recently uncovered author photograph, what is he posing beside?"]
+      ["In Thomas Pynchon’s recently uncovered author photograph, what is he posing beside?"],
+      [{ transform: "Capitalize" }]
     ],
 // 27.
     [
@@ -283,7 +304,8 @@
           style: "Em"
         },
         {
-          style: "Em"
+          style: "Em",
+          transform: "Capitalize"
         },
       ]
     ],
@@ -299,7 +321,8 @@
           style: "Em"
         },
         {
-          style: "Em"
+          style: "Em",
+          transform: "Capitalize"
         },
         {
           text: ": a magical realist epic by "
@@ -318,7 +341,8 @@
           style: "Em"
         },
         {
-          style: "Em"
+          style: "Em",
+          transform: "Capitalize"
         },
         {
           text: " by ",
@@ -332,7 +356,7 @@
 // 41.
     [
       [
-        "Our next book club selection is "
+        "Our next book club selection is ",
         {
           text: "Forbidden Love",
           style: "Em"
@@ -349,7 +373,7 @@
     ],
 // 43.
     [
-      ["SPOILER ALERT: ", {}, " was killed by the butler using a ", {}, "."]
+      ["SPOILER ALERT: ", { transform: "Capitalize" }, " was killed by the butler using a ", {}, "."]
     ],
 // 44.
     [
@@ -363,10 +387,11 @@
           style: "Em"
         },
         {
-          style: "Em"
+          style: "Em",
+          transform: "Capitalize"
         },
         {
-          text: "Also Rises: ",
+          text: " Also Rises: ",
           style: "Em"
         },
         {
@@ -383,7 +408,8 @@
           style: "Em"
         },
         {
-          style: "Em"
+          style: "Em",
+          transform: "Capitalize"
         },
         {
           text: "s ",
@@ -397,7 +423,8 @@
     ],
 // 47.
     [
-      ["What is the erotic subject of my latest fan fiction?"]
+      ["What is the erotic subject of my latest fan fiction?"],
+      [{ transform: "Capitalize" }]
     ],
 // 48.
     [
@@ -406,7 +433,8 @@
           text: "Today’s hottest thriller is ",
         },
         {
-          style: "Em"
+          style: "Em",
+          transform: "Capitalize"
         },
         {
           text: " Girl ",
@@ -433,7 +461,8 @@
           style: "Em"
         },
         {
-          style: "Em"
+          style: "Em",
+          transform: "Capitalize"
         },
         {
           text: "s ",
@@ -455,7 +484,7 @@
           text: "The Millions",
           style: "Em"
         },
-        ' described Zadie Smith’s new novel as “if ', 
+        " described Zadie Smith’s new novel as 'if ", 
         {}, 
         " and ", 
         {}, 
@@ -464,7 +493,8 @@
     ],
 // 52.
     [
-      ["What is the most popular cosplay subject at Comic Con this year?"]
+      ["What is the most popular cosplay subject at Comic Con this year?"],
+      [{ transform: "Capitalize" }]
     ],
 // 53.
     [
@@ -472,8 +502,8 @@
         {
           text: "The Boston Globe",
           style: "Em"
-        }
-        ' called John Grisham’s latest novel “a thrilling mash-up of ', 
+        },
+        " called John Grisham’s latest novel \"a thrilling mash-up of ", 
         {}, 
         " and ", 
         {}, 
@@ -485,7 +515,8 @@
     ],
 // 55.
     [
-      ["The one thing Stephen King is truly scared of?"]
+	["The one thing Stephen King is truly scared of?"],
+	[{ transform: "Capitalize" }]
     ],
 // 56.
     [
@@ -493,7 +524,8 @@
     ],
 // 57.
     [
-      ["What is the topic of your next workshop story?"]
+      ["What is the topic of your next workshop story?"],
+      [{ transform: "Capitalize" }]
     ],
 // 58.
     [
@@ -505,35 +537,43 @@
     ],
 // 60.
     [
-      ["What did Fyodor Dostoyevsky eat for breakfast every morning of his life?"]
+      ["What did Fyodor Dostoyevsky eat for breakfast every morning of his life?"],
+      [{ transform: "Capitalize" }]
     ],
 // 61.
     [
-      ["What did Günter Grass admit to being, aside from a Nazi?"]
+      ["What did Günter Grass admit to being, aside from a Nazi?"],
+      [{ transform: "Capitalize" }]
     ],
 // 62.
     [
-      ["What helps Philip Marlowe unwind after a long day of sleuthing?"]
+      ["What helps Philip Marlowe unwind after a long day of sleuthing?"],
+      [{ transform: "Capitalize" }]
     ],
 // 63.
     [
-      ["What never fails to jumpstart a good whodunit?"]
+      ["What never fails to jumpstart a good whodunit?"],
+      [{ transform: "Capitalize" }]
     ],
 // 64.
     [
-      ["What was really eating Gilbert Grape?"]
+      ["What was really eating Gilbert Grape?"],
+      [{ transform: "Capitalize" }]
     ],
 // 65.
     [
-      ["What’s even more important than being earnest?"]
+      ["What’s even more important than being earnest?"],
+      [{ transform: "Capitalize" }]
     ],
 // 66.
     [
-      ["What’s the subject of the new novel that’s going to make Martin Amis relevant again?"]
+      ["What’s the subject of the new novel that’s going to make Martin Amis relevant again?"],
+      [{ transform: "Capitalize" }]
     ],
 // 67.
     [
-      ["What did Robert Frost find on the road less traveled by?"]
+      ["What did Robert Frost find on the road less traveled by?"],
+      [{ transform: "Capitalize" }]
     ],
 // 68.
     [
@@ -543,7 +583,8 @@
           style: "Em"
         },
         {
-          style: "Em"
+          style: "Em",
+          transform: "Capitalize"
         },
         {
           text: ": ",
@@ -596,14 +637,16 @@
           style: "Em"
         },
         {
-          style: "Em"
+          style: "Em",
+          transform: "Capitalize"
         },
         {
           text: " with a ",
           style: "Em"
         },
         {
-          style: "Em"
+          style: "Em",
+          transform: "Capitalize"
         },
         {
           text: " Tattoo",
@@ -622,7 +665,7 @@
   responses: [
     "$2 million debut novel advance",
     "one-star Amazon review",
-    "Five-star Goodreads review from your mom",
+    "five-star Goodreads review from your mom",
     "900-page novel with 10 pages of plot",
     "adjunct professor on food stamps",
     "adult coloring book",
@@ -641,19 +684,19 @@
     "Big Brother",
     "bird pooping on Jonathan Franzen",
     "blooming tree as a metaphor for the female orgasm",
-    "blurb containing the word “luminous”",
+    "blurb containing the word \"luminous\"",
     "book emoji",
     "Borges lost in a hedge maze",
     "brick-and-mortar Amazon store",
     "sexually vanilla affair with an experimental poet",
-    "character with “budding breasts”",
+    "character with \"budding breasts\"",
     "Chekhov’s gun",
     "Cheryl Strayed’s backpack",
     "choose your own adventure",
     "Colson Whitehead",
-    "copy of the *Kama Sutra* found in your parents’ bedroom",
+    "copy of the Kama Sutra found in your parents’ bedroom",
     "creative writing Ph.D.",
-    "cum-stained copy of *Tropic of Cancer*",
+    "cum-stained copy of Tropic of Cancer",
     "Dan Brown’s texts to Tom Hanks",
     "Danielle Steel",
     "Dave Eggers’s boyish good looks",
@@ -687,7 +730,7 @@
     "H. P. Lovecraft’s racism",
     "very hangry caterpillar",
     "Harper Lee’s totally lucid and voluntary last wishes",
-    "Harry Potter’s magic “wand”",
+    "Harry Potter’s magic \"wand\"",
     "Haruki Murakami’s running shoes",
     "hatchet job from Michiko Kakutani",
     "Hilary Mantel",
@@ -697,7 +740,7 @@
     "Humbert Humbert’s open bathrobe",
     "incendiary Facebook post from Anne Rice",
     "incestuous siblings",
-    "incomplete collection of *In Search of Lost Time*",
+    "incomplete collection of In Search of Lost Time",
     "jaded cop one week from retirement",
     "James Baldwin",
     "James Frey taking a lie detector test",
@@ -748,9 +791,9 @@
     "Slaughterhouses 1, 2, 3, and 4",
     "sober Charles Bukowski",
     "sonnet about fucking",
-    "SparkNotes for *Infinite Jest*",
+    "SparkNotes for Infinite Jest",
     "STD everyone got that one year at Bread Loaf",
-    "stack of unread *New Yorkers*",
+    "stack of unread New Yorkers",
     "steampunk convention",
     "Stephen King’s cocaine dealer",
     "hot dudes reading",
@@ -801,12 +844,12 @@
     "2 to 4 year Submittable response time",
     "Taco Bell Quarterly",
     "Condé Nast tell-all memoir",
-    "*White Fragility*",
-    "*How to Be an Anti-Racist*",
+    "White Fragility",
+    "How to Be an Anti-Racist",
     "Dan Mallory's pee cups",
     "$4 a word",
-    "*Hillbilly Elegy*",
-    "*The Art of the Deal*",
+    "Hillbilly Elegy",
+    "The Art of the Deal",
     "Rachel Cusk's narrator",
     "book club drama",
     "memoir by a twentysomething",
