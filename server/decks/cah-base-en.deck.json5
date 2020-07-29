@@ -14,7 +14,7 @@
     ],
 // 2.
     [
-      ["All happy", {}, " are alike; each unhappy ", {}, " is unhappy in its own way."]
+      ["All happy ", {}, " are alike; each unhappy ", {}, " is unhappy in its own way."]
     ],
 // 3.
     [
@@ -97,7 +97,7 @@
           transform: "Capitalize"
         },
         {
-          text: " Is Hard to Find",
+          text: " Is Hard to Find ",
           style: "Em"
         },
         "stories by",
@@ -615,7 +615,7 @@
     ],
 // 71.
     [
-      ['“Why  ', {}, " Is the New ", {}, '” was the most popular panel at this year’s AWP.']
+      ['“Why ', {}, " Is the New ", {}, '" was the most popular panel at this year’s AWP.']
     ],
 // 72.
     [
