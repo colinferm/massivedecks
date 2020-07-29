@@ -107,7 +107,7 @@ viewSource shared getSummary s =
     in
     Html.div
         [ HtmlA.class "source" ]
-        [ Maybe.transformWith (Html.text sourceDetails.name) makeLink sourceDetails.url ]
+        [ Maybe.transformWith (Html.text "") makeLink sourceDetails.url ]
 
 
 makeLink : Html msg -> String -> Html msg
