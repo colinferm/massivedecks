@@ -261,7 +261,7 @@ module.exports = (env, argv) => {
             test: /assets\/scripts\/.*\.js$/,
           },
           {
-            compilation_level: "SIMPLE_OPTIMIZATIONS",
+            compilation_level: "WHITESPACE_ONLY",
             externs: "src/js/extern.js",
           }
         ),
