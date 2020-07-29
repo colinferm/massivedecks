@@ -46,11 +46,52 @@ $response-background: #FFFFFF;
   &.response {
     --bg: #{$response-background};
     --fg: #{$response-color};
+
+    .card-info {
+      .source:before {
+        background-image: url(../../assets/images/pc-razor-black.png);
+        background-size: 100% 100%;
+        display: inline-block;
+        width: 35px;
+        height: 28px;
+      }
+    }
+
+    .side.back {
+      --bg: #{$response-color};
+      --fg: #{$response-background};
+
+      .card-info {
+        .source:before {
+          background-image: url(../../assets/images/pc-razor-white.png);
+          background-size: 100% 100%;
+          display: inline-block;
+	  width: 35px;
+	  height: 29px;
+        }
+      }
+    }
+
   }
 
   &.call {
     --bg: #{$call-background};
     --fg: #{$call-color};
+
+    .card-info {
+      .source:before {
+        background-image: url(../../assets/images/pc-scissors-white.png);
+        background-size: 100% 100%;
+        display: inline-block;
+	width: 35px;
+	height: 31px;
+      }
+    }
+
+    .side.back {
+      --bg: #{$call-color};
+      --fg: #{$call-background};
+    }
 
     p {
       display: flex;
@@ -202,11 +243,6 @@ $response-background: #FFFFFF;
 
       &:before {
         content: "";
-        background-image: url(../../assets/images/pc-scissors-white.png);
-        background-size: 100% 100%;
-        display: inline-block;
-	width: 35px;
-	height: 31px;
 	/* width: 2.8em; height: 2em; */
       }
     }
