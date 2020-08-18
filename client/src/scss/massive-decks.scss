@@ -20,7 +20,11 @@ $min-page-width: 320px;
 
 body {
   color: colors.$on-primary;
-  background: colors.$background url(../../assets/images/background.svg) repeat;
+  /* background: colors.$background url(../../assets/images/background.svg) repeat; */
+  background-image: url('../../assets/images/el-logo.png');
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-size: 50% auto;
   margin: 0;
   padding: 0;
   font-size: 18px;

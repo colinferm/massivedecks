@@ -86,7 +86,7 @@ viewBody response =
                 []
 
             else
-                [ Html.text "." ]
+                [ Html.text "" ]
     in
     ViewBody (\() -> [ Html.p [] [ Html.span [] ((response.body |> String.capitalise |> Html.text) :: end) ] ])
 
