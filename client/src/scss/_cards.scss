@@ -60,6 +60,14 @@ $response-background: #FFFFFF;
     .side.back {
       --bg: #{$response-color};
       --fg: #{$response-background};
+      background-image: url(../../assets/images/pc-a-back.png);
+      background-size: 80% 80%;
+      background-position: 50% 50%;
+      background-repeat: no-repeat;
+
+      .content {
+	display: none;
+      }
 
       .card-info {
         .source:before {

@@ -229,26 +229,14 @@ view shared model =
             ]
         , Html.footer [ HtmlA.class "version-info" ]
             [ Html.div [ HtmlA.class "logos" ]
-                [ Html.blankA
-                    [ HtmlA.class "logo"
-                    , Strings.MDProject |> Lang.title shared
-                    , HtmlA.href "https://github.com/Lattyware/massivedecks"
-                    ]
-                    [ Icon.viewStyled [ Strings.MDLogoDescription |> Lang.alt shared ] Icon.massiveDecks ]
-                , Html.blankA
-                    [ HtmlA.class "logo"
-                    , Strings.DevelopedByReread |> Lang.title shared
-                    , HtmlA.href "https://www.rereadgames.com/"
-                    ]
-                    [ Icon.viewStyled [ Strings.RereadLogoDescription |> Lang.alt shared ] Icon.rereadGames ]
-                ]
-            , Html.p [ HtmlA.class "version" ]
+             [ Html.p [ HtmlA.class "version" ]
                 [ Html.text "\""
                 , Strings.MassiveDecks |> Lang.html shared
                 , Html.text "\" "
                 , Strings.Version { versionNumber = Version.version } |> Lang.html shared
                 ]
-            ]
+             ]
+           ]
         ]
     , shared.sources.manyDecks |> Maybe.map manyDecksAd |> Maybe.withDefault Html.nothing
     ]
