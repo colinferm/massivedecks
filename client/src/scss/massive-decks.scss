@@ -22,7 +22,7 @@ body {
   color: colors.$on-primary;
   /* background: colors.$background url(../../assets/images/background.svg) repeat; */
   background-image: url('../../assets/images/el-logo.png');
-  background-position: right top;
+  background-position: right 4rem;
   background-repeat: no-repeat;
   background-size: 50% auto;
   margin: 0;
@@ -31,6 +31,10 @@ body {
   line-height: 1.2;
   font-family: fonts.$general;
   min-width: $min-page-width;
+
+  @media (min-width: 768px) {
+  	background-size: 30% auto;
+  }
 }
 
 .game-code-input {
