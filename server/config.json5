@@ -115,7 +115,7 @@
     // Example of a configuration using in-memory storage. Note this means server restart wipes all data.
     type: "PostgreSQL",
     connection: {
-      host: "postgres",
+      host: "localhost",
       port: 5432 ,
       user: "massivedecks",
       database: "massivedecks",
@@ -134,7 +134,7 @@
     //// Example of a configuration using a postgres database.
     type: "PostgreSQL",
     connection: {
-      host: "postgres",
+      host: "localhost",
       port: 5432 ,
       user: "massivedecks",
       database: "massivedecks",
