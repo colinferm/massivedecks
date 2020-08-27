@@ -1198,6 +1198,122 @@ translate mdString =
         BrazilianPortuguese ->
             [ Text "Portuguese (Brazilian)" ]
 
+        -- Papercuts
+        ElectricLiterature ->
+            [ Ref ElectricLiterature ]
+
+        PapercutsIntro ->
+            [ Text "This online version of Papercuts was written and developed by Electric Literature, a nonprofit with the goal to make literature more exciting, relevant, and inclusive. If you've arrived here without purchasing the game, or by invitation of a friend, please consider contributing $5 to support our mission here." ]
+
+        PapercutsHeaderHow ->
+            [ Text "HOW TO PLAY PAPERCUTS ONLINE:" ]
+
+        PapercutsIntroHow ->
+            [ Text "Papercuts is a literary card game for the rude and well-read. The rules are similar to the rules of card games like Apples to Apples™ and Cards Against Humanity™. The goal is to fill in the blank of the question card with the answer(s) the “Editor” will find funniest." ]
+
+        PapercutsHeaderGettingStarted ->
+            [ Text "GETTING STARTED:" ]
+
+        PapercutsTextGettingStarted ->
+            [ Text "Add your name in the gray box, and click the red “play” button on the bottom-right." ]
+
+        PapercutsHeaderSetDeck ->
+            [ Text "SET UP THE DECK:" ]
+
+        PapercutsTextSetDeckOne ->
+            [ Text "In the center of the new screen is a “deck” field. “Papercuts by Electric Literature” will be automatically selected. Click the black plus sign next to this field." ]
+
+        PapercutsTextSetDeckTwo ->
+            [ Text "The deck is set up, and you’re almost ready to play Papercuts! Now’s the time to invite friends." ]
+
+        PapercutsHeaderInvite ->
+            [ Text "INVITE FRIENDS TO PLAY:" ]
+
+        PapercutsTextInviteOne ->
+            [ Text "Toward the bottom of the screen is a red bar that says “You need at least three players to start the game.” (We suggest a maximum of six.) Click the megaphone icon on the right." ]
+
+        PapercutsTextInviteTwo ->
+            [ Text "If your friends are busy, you can click the robot icon to play with two automated players. Heads up though, in this version of the game, you’re *always* the Editor, and the robots provide the answer cards." ]
+
+        PapercutsTextInviteThree ->
+            [ Text "Copy the link in the pop-up window, and send it to your friends. They will also need to enter the username and password." ]
+
+        PapercutsHeaderStartPlaying ->
+            [ Text "START PLAYING:" ]
+
+        PapercutsTextStartPlayingOne ->
+            [ Text "After your friends have clicked the link and joined the game, a red bar will appear toward the bottom of the screen warning that you have unsaved changes. Click the floppy disc icon to save." ]
+
+        PapercutsTextStartPlayingTwo ->
+            [ Text "Click the “start game” button." ]
+
+        PapercutsTextStartPlayingThree ->
+            [ Text "All set! You’re now playing Papercuts. (We recommend also getting on a group text, phone call, Slack channel, or whatever so you can yell at each other, but that’s optional. Everything you need for the game is set up at this point.)" ]
+
+        PapercutsTextGoPlay ->
+            [ Text "If you’ve played Cards Against Humanity before, you can probably figure it out from here! If not, read on." ]
+
+        PapercutsHeaderHowPlay ->
+            [ Text "HOW TO PLAY:" ]
+
+        PapercutsTextHowPlayOne ->
+            [ Text "All players have 10 answer cards in their hand. Each turn, one player is selected to be the Editor. The rest of the players are Writers. If you are the Editor, you won’t be able to select any cards from your hand, and you will see a gavel symbol in the “players” tab in the upper-left corner." ]
+
+        PapercutsTextHowPlayTwo ->
+            [ Text "A question card (the one in red) is randomly selected each turn." ]
+
+        PapercutsTextHowPlayThree ->
+            [ Text "The Writers each select one answer card—or two cards for questions with two blanks—for the Editor to consider. One click allows you to read the question card with your answers filled in, without submitting it to the Editor." ]
+
+        PapercutsTextHowPlayFour ->
+            [ Text "To submit, click the red check mark in the lower right-hand corner. (The Editor cannot see who submitted which answer!)" ]
+
+        PapercutsTextHowPlayFive ->
+            [ Text "The Editor chooses their favorite by selecting the winning card and then clicking the trophy icon in the lower right-hand corner. The winning Writer gets one point." ]
+
+        PapercutsTextHowPlaySix ->
+            [ Text "To continue to the next round, each player must click the red arrow in the lower right-hand corner of the screen." ]
+
+        PapercutsTextHowPlaySeven ->
+            [ Text "Then it’s the next player’s turn to be the Editor. All of the Writers’ hands are replenished so they have 10 cards to choose from again." ]
+
+        PapercutsTextHowPlayEight ->
+            [ Text "The game ends when someone wins five points, the 1 hour time limit runs out, or everyone wants to go do something else (or play another round!)." ]
+
+        PapercutsHeaderBonus ->
+            [ Text "BONUS SETUP:" ]
+
+        PapercutsTextBonusOne ->
+            [ Text "While you’re still setting up the game, you can click on the “RULES,” “TIME LIMITS” or “PRIVACY” tabs toward the top of the screen to customize the game’s settings." ]
+
+        PapercutsTextBonusTwo ->
+            [ Text "In the “RULES” section, you can adjust things like how many points a player needs to win the game." ]
+
+        PapercutsTextBonusThree ->
+            [ Text "“TIME LIMITS” allows you to change the maximum length of time a round can go, and other, smaller specifications." ]
+
+        PapercutsTextAboutOne ->
+            [ Text "Papercuts © copyright 2016 by Electric Lit, Inc." ]
+
+        PapercutsTextAboutTwo ->
+            [ Text "Papercuts was written and developed by Andy Hunter, Halimah Marcus, Lincoln Michel, and Dwyer Murphy." ]
+
+        PapercutsTextAboutThree ->
+            [ Text "Additional contributors were Anu Jindal, Calvin Kasulke, Peter Kispert, J. Robert Lennon, Catherine LaSota, Kelly Luce, Carrie Vasios Mullins, Nick Politan, Benjamin Samuel, Dan Sheehan, Michael Seidlinger, Lucie Shelly, Brandon Taylor, Jess Zimmerman, and Jake Zucker." ]
+
+        PapercutsTextAboutFour ->
+            [ Text "Original design by Nadxieli Nieto. Digital development by Colin Ferm, the engineer behind Lit Hub." ]
+
+        PapercutsTextAboutFive ->
+            [ Text "Papercut’s platform was developed by "
+            , Ref RereadGames
+            , Text " and other contributors—the game is open source under "
+            , Ref License
+            , Text ", so you can help improve the game, access the source code, or just find out more at "
+            , Ref MDProject
+            , Text "."
+            ]
+
 
 an : Maybe Int -> String
 an amount =

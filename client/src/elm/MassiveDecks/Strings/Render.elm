@@ -225,6 +225,9 @@ enhanceHtml context mdString unenhanced =
         TwitterHandle ->
             [ Html.blankA [ HtmlA.href "https://twitter.com/Massive_Decks" ] (suffixed unenhanced Icon.twitter) ]
 
+        ElectricLiterature ->
+            [ Html.blankA [ HtmlA.class "no-wrap", HtmlA.href "https://electricliterature.com/product/digital-papercuts" ] unenhanced ]
+
         Error ->
             prefixed unenhanced Icon.exclamationTriangle
 

@@ -12,7 +12,7 @@ import Dict
 import FontAwesome.Attributes as Icon
 import FontAwesome.Icon as Icon exposing (Icon)
 import FontAwesome.Solid as Icon
-import Html exposing (Html)
+import Html exposing (Html, img)
 import Html.Attributes as HtmlA
 import Html.Events as HtmlE
 import Http
@@ -543,24 +543,58 @@ aboutContent shared =
             Lang.html shared
     in
     Html.div [ HtmlA.class "about" ]
-        [ Html.h2 [] [ Strings.WhatIsThis |> html ]
-        , Html.p [] [ Strings.GameDescription |> html ]
-        , Html.h2 [] [ Strings.Rules |> html ]
-        , Html.p [] [ Strings.RulesHand |> html ]
-        , Html.p [] [ Strings.RulesCzar |> html ]
-        , Html.p [] [ Strings.RulesPlaying |> html ]
-        , Html.p [] [ Strings.RulesJudging |> html ]
-        , Html.figure [ HtmlA.class "example-card" ]
-            [ Call.view shared Configure.fake Card.Front [] examplePick2
-            , Html.figcaption []
-                [ Strings.ExamplePickDescription |> html ]
-            ]
-        , Html.h3 [] [ Strings.RulesPickTitle |> html ]
-        , Html.p [] [ Strings.RulesPick |> html ]
-        , Html.p [] [ Strings.RulesDraw |> html ]
-        , Html.h2 [] [ Strings.HouseRulesTitle |> html ]
-        , Html.p [] [ Strings.HouseRules |> html ]
-        , Html.ul [ Icon.ul, SvgA.class "rule-list" ] (houseRules |> List.map (houseRule shared))
+        [ Html.p [] [
+            Html.i [] [ Strings.PapercutsIntro |> html ]
+        ]
+        , Html.h2 [] [ Strings.PapercutsHeaderHow |> html ]
+        , Html.p [] [ Strings.PapercutsIntroHow |> html ]
+        , Html.div [] [
+            Html.img [ HtmlA.src "/assets/images/btn-play.png" ] []
+        ]
+        , Html.h2 [] [ Strings.PapercutsHeaderGettingStarted |> html ]
+        , Html.p [] [ Strings.PapercutsTextGettingStarted |> html ]
+        , Html.h2 [] [ Strings.PapercutsHeaderSetDeck |> html ]
+        , Html.p [] [ Strings.PapercutsTextSetDeckOne |> html ]
+        , Html.p [] [ Strings.PapercutsTextSetDeckTwo |> html ]
+        , Html.h2 [] [ Strings.PapercutsHeaderInvite |> html ]
+        , Html.p [] [ Strings.PapercutsTextInviteOne |> html ]
+        , Html.p [] [ Strings.PapercutsTextInviteTwo |> html ]
+        , Html.p [] [ Strings.PapercutsTextInviteThree |> html ]
+        , Html.h2 [] [ Strings.PapercutsHeaderStartPlaying |> html ]
+        , Html.p [] [ Strings.PapercutsTextStartPlayingOne |> html ]
+        , Html.p [] [ Strings.PapercutsTextStartPlayingTwo |> html ]
+        , Html.p [] [ Strings.PapercutsTextStartPlayingThree |> html ]
+        , Html.p [] [
+            Html.b [] [ Strings.PapercutsTextGoPlay |> html ]
+        ]
+        , Html.h2 [] [ Strings.PapercutsHeaderHowPlay |> html ]
+        , Html.p [] [ Strings.PapercutsTextHowPlayOne |> html ]
+        , Html.p [] [ Strings.PapercutsTextHowPlayTwo |> html ]
+        , Html.p [] [ Strings.PapercutsTextHowPlayThree |> html ]
+        , Html.p [] [ Strings.PapercutsTextHowPlayFour |> html ]
+        , Html.p [] [ Strings.PapercutsTextHowPlayFive |> html ]
+        , Html.p [] [ Strings.PapercutsTextHowPlaySix |> html ]
+        , Html.p [] [ Strings.PapercutsTextHowPlaySeven |> html ]
+        , Html.p [] [ Strings.PapercutsTextHowPlayEight |> html ]
+        , Html.h2 [] [ Strings.PapercutsHeaderBonus |> html ]
+        , Html.p [] [ Strings.PapercutsTextBonusOne |> html ]
+        , Html.p [] [ Strings.PapercutsTextBonusTwo |> html ]
+        , Html.p [] [ Strings.PapercutsTextBonusThree |> html ]
+        , Html.p [ SvgA.class "about-text" ] [
+            Html.i [] [ Strings.PapercutsTextAboutOne |> html ]
+        ]
+        , Html.p [ SvgA.class "about-text" ] [
+            Html.i [] [ Strings.PapercutsTextAboutTwo |> html ]
+        ]
+        , Html.p [ SvgA.class "about-text" ] [
+            Html.i [] [ Strings.PapercutsTextAboutThree |> html ]
+        ]
+        , Html.p [ SvgA.class "about-text" ] [
+            Html.i [] [ Strings.PapercutsTextAboutFour |> html ]
+        ]
+        , Html.p [ SvgA.class "about-text" ] [
+            Html.i [] [ Strings.PapercutsTextAboutFive |> html ]
+        ]
         ]
 
 

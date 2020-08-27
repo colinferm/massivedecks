@@ -82,6 +82,43 @@ type MdString
     | MustBeLessThanOrEqualValidationError { max : Int } -- An error when a configuration value must be less than or equal to the given value.
     | SetValue { value : Int } -- A description of the action of resolving a problem by setting the value to the given one.
     | CantBeEmpty -- An error when a configuration value must be non-empty.
+      -- About Papercuts
+    | ElectricLiterature -- Link to EL
+    | PapercutsIntro -- Some intro text for papercuts
+    | PapercutsHeaderHow -- How to play header
+    | PapercutsIntroHow -- Intro into how to play
+    | PapercutsHeaderGettingStarted -- The header for getting started
+    | PapercutsTextGettingStarted -- The text for getting started.
+    | PapercutsHeaderSetDeck -- The header for setting up the deck.
+    | PapercutsTextSetDeckOne -- The first piece of text for setting up the deck
+    | PapercutsTextSetDeckTwo -- The second piece of text for setting up the deck
+    | PapercutsHeaderInvite -- Header text for invites
+    | PapercutsTextInviteOne -- First piece of text for invites
+    | PapercutsTextInviteTwo -- Second piece of text for invites
+    | PapercutsTextInviteThree -- Third piece of text for invites
+    | PapercutsHeaderStartPlaying -- Header text for starting to play
+    | PapercutsTextStartPlayingOne -- First piece of text for start playing
+    | PapercutsTextStartPlayingTwo -- Second piece of text for start playing
+    | PapercutsTextStartPlayingThree -- Third piece of text for start playing
+    | PapercutsTextGoPlay -- Text for go play
+    | PapercutsHeaderHowPlay -- Header for how to play
+    | PapercutsTextHowPlayOne -- Text for how to play
+    | PapercutsTextHowPlayTwo -- Text for how to play
+    | PapercutsTextHowPlayThree -- Text for how to play
+    | PapercutsTextHowPlayFour -- Text for how to play
+    | PapercutsTextHowPlayFive -- Text for how to play
+    | PapercutsTextHowPlaySix -- Text for how to play
+    | PapercutsTextHowPlaySeven -- Text for how to play
+    | PapercutsTextHowPlayEight -- Text for how to play
+    | PapercutsHeaderBonus -- Header for bonus setup
+    | PapercutsTextBonusOne -- Text for bonus setup
+    | PapercutsTextBonusTwo -- Text for bonus setup
+    | PapercutsTextBonusThree -- Text for bonus setup
+    | PapercutsTextAboutOne -- Text for about
+    | PapercutsTextAboutTwo -- Text for about
+    | PapercutsTextAboutThree -- Text for about
+    | PapercutsTextAboutFour -- Text for about
+    | PapercutsTextAboutFive -- Text for about
       -- Settings
     | SettingsTitle -- The title for the settings panel.
     | LanguageSetting -- The label for the "Language" setting.
