@@ -548,9 +548,9 @@ aboutContent shared =
         ]
         , Html.h2 [] [ Strings.PapercutsHeaderHow |> html ]
         , Html.p [] [ Strings.PapercutsIntroHow |> html ]
-        , Html.div [] [
-            Html.img [ HtmlA.src "/assets/images/btn-play.png" ] []
-        ]
+        --, Html.div [] [
+        --    Html.img [ HtmlA.src "/assets/images/btn-play.png" ] []
+        --]
         , Html.h2 [] [ Strings.PapercutsHeaderGettingStarted |> html ]
         , Html.p [] [ Strings.PapercutsTextGettingStarted |> html ]
         , Html.h2 [] [ Strings.PapercutsHeaderSetDeck |> html ]

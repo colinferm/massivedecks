@@ -85,7 +85,7 @@ translate mdString =
             [ Text "Play" ]
 
         AboutTheGame ->
-            [ Text "About" ]
+            [ Text "How to play" ]
 
         AboutTheGameDescription ->
             [ Text "Find out about ", Ref MassiveDecks, Text " and how it is developed." ]
